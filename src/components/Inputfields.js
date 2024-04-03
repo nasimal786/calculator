@@ -43,6 +43,7 @@ function Inputfields({bill,setBill,people,setPeople,tip,setTip}) {
           <input inputMode="nummeric" className="tip-input" name="tip" onInput={handleSelectedTip} placeholder="Custom" />
         </div>
       </div>
+      
 {/*number of people  */}
       <div className="lable-group">
         <div className="lable-wraper">
