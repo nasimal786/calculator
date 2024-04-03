@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 function Inputfields({bill,setBill,people,setPeople,tip,setTip}) {
 
