@@ -43,12 +43,12 @@ function Inputfields({bill,setBill,people,setPeople,tip,setTip}) {
           <input inputMode="nummeric" className="tip-input" name="tip" onInput={handleSelectedTip} placeholder="Custom" />
         </div>
       </div>
-      
+
 {/*number of people  */}
       <div className="lable-group">
         <div className="lable-wraper">
           <label className="num-of-people" htmlFor="people">Number of People</label>
-          <span className="error">{people ==0 ? "Can't be zero" : ""}</span>
+          <span className="error">{people ===0 ? "Can't be zero" : ""}</span>
         </div>
         <i className="fa-solid fa-user" ></i>
         <input inputMode="nummeric" className="number-input" id="people" onChange={(e)=>setPeople(e.target.value)} value={people} placeholder="0"/>
